@@ -1,8 +1,8 @@
 # Blog Project:
   
-  - This App is a blog-like app where you can write blogs(posts) , edit , delete , show details of them adding the flexibility  for future improvements and new features
-    
+  - This App is a blog-like app where you can write blogs(posts) , edit , delete , show details of each blog ,In addition to the flexibility  for future improvements       and new features
   - Adding the abitlity toggle between screens using navigation stucture (StackNavigator)
+  - using context for state management 
   
   
   # Project Structure 
@@ -17,12 +17,12 @@
           - handles the api requests as well as handling the authentication process 
             
    
-   - components folder()
+   - components folder
       - Form.js 
      
    
    - context folder 
-      -createDataContext.js (responsible for creating Context & blue print for using Context)
+      - CreateDataContext.js (responsible for creating Context & blue print for using Context)
       - BlogContext.js(handles the blogs data => posting and fetching requests
    
    - hooks
@@ -62,7 +62,7 @@ or
 - ngrok http 3000
   ```
 
-Run this following commands to run the app in inside Blog folder.
+Run this following commands to run the app  inside Blog folder.
 
 ```shell script
 - npm start 
