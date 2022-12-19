@@ -35,30 +35,37 @@
      - EditScreen.js
      - ShowScreen.js
     
+  ## server 
+   - jsonserver ( download & install ngrok from here https://ngrok.com/download )
  
 
 # Setup
    ```shell script
-git clone https://github.com/oi19/react-native/tree/blog
-cd blog
+- git clone https://github.com/oi19/react-native/tree/blog
+- cd Blog
 ```
-Run the following command to run your server in  different cmd  inside the track-server folder .
+Run the following command to run your server in different cmds  inside the jsonserver folder .
 
 ```shell script
-npm run dev
+- cd jsonserver
+- npm run dev
 ```
 and
 ```shell script
-npm run tunnel 
+- cd jsonserver
+- npm run tunnel 
 ```
 
 or
 ```shell script
-   ngrok http 3000
+- cd jsonserver
+- ngrok http 3000
   ```
 
-Run those following commands to run the app in inside the tracker folder.
+Run this following commands to run the app in inside Blog folder.
 
 ```shell script
-npm start
+- npm start 
+or
+- expo start 
 ```
