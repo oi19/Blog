@@ -1,6 +1,7 @@
 # Blog Project:
   
-  - This App is a blog-like app where you can write blogs(posts) , edit , delete , show details of each blog ,In addition to the flexibility  for future improvements       and new features
+  - This App is a blog-like app where you can write blogs(posts) , send ,edit , delete and show details of each blog ,
+    In addition to the flexibility  for future improvements and new features 
   - Adding the abitlity toggle between screens using navigation stucture (StackNavigator)
   - using context for state management 
   
